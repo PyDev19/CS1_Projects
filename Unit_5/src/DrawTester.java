@@ -1,4 +1,4 @@
-import StdDraw.StdDraw;
+import libs.StdDraw;
 
 public class DrawTester {
     public static void main(String[] args) {
@@ -15,10 +15,10 @@ public class DrawTester {
         StdDraw.line(600, 400, 600, 550);
         StdDraw.circle(150, 150, 150);
         for (int i = 1; i < 3; i++) {
-            StdDraw.ellipse(150, 150, 150, 50*i);
+            StdDraw.ellipse(150, 150, 150, 50 * i);
         }
         for (int i = 1; i < 3; i++) {
-            StdDraw.ellipse(150, 150, 50*i, 150);
+            StdDraw.ellipse(150, 150, 50 * i, 150);
         }
         StdDraw.square(600, 175, 150);
         StdDraw.square(500, 225, 150);
