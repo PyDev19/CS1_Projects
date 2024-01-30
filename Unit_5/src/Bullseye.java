@@ -1,4 +1,4 @@
-import StdDraw.StdDraw;
+import libs.StdDraw;
 import java.awt.Color;
 
 public class Bullseye {

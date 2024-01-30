@@ -1,5 +1,5 @@
 import java.util.Random;
-import StdDraw.StdDraw;
+import libs.StdDraw;
 
 public class RandomDraw {
     public static void main(String[] args) {
